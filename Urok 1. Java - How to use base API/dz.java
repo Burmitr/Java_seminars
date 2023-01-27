@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 //Задача 1
 
-public class dz {
+/*public class dz {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -31,7 +31,7 @@ public class dz {
 		System.out.printf("Произведение чисел от 1 до "+n+" = "+mult);
     }
 }
-
+*/
 
 
  //  Задача 2. Вывести все простые числа от 1 до 1000
@@ -52,18 +52,19 @@ public class dz {
 
 
 // Задача 3. Реализовать простой калькулятор
-/*public class dz {
+public class dz {
     public static void main(String[] args) {
 
-        int result = 0;
+        Double result;
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите первое число: ");
-        int a = scanner.nextInt();
-        System.out.print("Введите второе число: ");
-        int b = scanner.nextInt();
         System.out.print("Укажите действие (' + ', ' - ', ' * ', ' / '): ");
-        String action = scanner.next();
+        String action = scanner.nextLine();
+        System.out.print("Введите первое число: ");
+        double a = scanner.nextDouble();
+        System.out.print("Введите второе число: ");
+        double b = scanner.nextDouble();
+        
        
         if (action.equals("+")) {
             result = a + b;
@@ -84,4 +85,3 @@ public class dz {
         }
     }
 }
-*/
