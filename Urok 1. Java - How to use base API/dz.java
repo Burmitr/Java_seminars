@@ -6,7 +6,6 @@ import java.util.Scanner;
 Задача 3. Реализовать простой калькулятор
 */
 
-
 //Задача 1
 
 /*public class dz {
@@ -33,8 +32,7 @@ import java.util.Scanner;
 }
 */
 
-
- //  Задача 2. Вывести все простые числа от 1 до 1000
+//  Задача 2. Вывести все простые числа от 1 до 1000
 /*public class dz {
     public static void main(String[] args) {
 
@@ -49,8 +47,6 @@ import java.util.Scanner;
 }
 */
 
-
-
 // Задача 3. Реализовать простой калькулятор
 public class dz {
     public static void main(String[] args) {
@@ -64,24 +60,23 @@ public class dz {
         double a = scanner.nextDouble();
         System.out.print("Введите второе число: ");
         double b = scanner.nextDouble();
-        
-       
+
         if (action.equals("+")) {
             result = a + b;
-            System.out.println(a + " + " + b + " = " + result); 
-        
+            System.out.println(a + " + " + b + " = " + result);
+
         }
         if (action.equals("-")) {
             result = a - b;
-            System.out.println(a + " - " + b + " = " + result); 
+            System.out.println(a + " - " + b + " = " + result);
         }
         if (action.equals("*")) {
             result = a * b;
-            System.out.println(a + " * " + b + " = " + result); 
+            System.out.println(a + " * " + b + " = " + result);
         }
         if (action.equals("/")) {
             result = a / b;
-            System.out.println(a + " / " + b + " = " + result); 
+            System.out.println(a + " / " + b + " = " + result);
         }
     }
 }
