@@ -74,23 +74,17 @@ public class dz2 {
         }
 
         Logger logger = Logger.getLogger(dz2.class.getName());
+
         try {
-			FileHandler fh = new FileHandler("log.txt");
-			logger.addHandler(fh);
-			
-		} catch (SecurityException e) {
-			logger.log(Level.SEVERE,
-					"Не удалось создать файл лога из-за политики безопасности.", 
-					e);
-		} catch (IOException e) {
-			logger.log(Level.SEVERE,
-					"Не удалось создать файл лога из-за ошибки ввода-вывода.",
-					e);
-		}
-		
-		logger.log(Level.INFO, "Запись лога с уровнем INFO (информационная)");
-		logger.log(Level.WARNING,"Запись лога с уровнем WARNING (Предупреждение)");
-		logger.log(Level.SEVERE, "Запись лога с уровнем SEVERE (серъёзная ошибка)");
-	}
+            FileHandler fh = new FileHandler("log.txt");
+            logger.addHandler(fh);
+        } catch (IOException e) {
+            logger.log(Level.SEVERE,
+                    "Не удалось создать файл лога из-за ошибки ввода-вывода.",
+                    e);
+        }
+
+        logger.log(Level.INFO, "Запись лога с уровнем INFO (информационная)");
     }
+}
 

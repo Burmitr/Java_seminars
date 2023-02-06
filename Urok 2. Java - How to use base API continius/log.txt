@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-02-06T10:33:07.769764Z</date>
+  <millis>1675679587769</millis>
+  <nanos>764000</nanos>
+  <sequence>0</sequence>
+  <logger>dz2</logger>
+  <level>INFO</level>
+  <class>dz2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Запись лога с уровнем INFO (информационная)</message>
+</record>
+</log>
